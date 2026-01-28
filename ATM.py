@@ -1,4 +1,4 @@
-#Simple ATM system
+#ATM SYSTEM DEMO
 
 def main():
 
