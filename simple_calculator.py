@@ -1,6 +1,6 @@
 # Simple calculator module 
 
-def add(x, y):
+def python_calculator(x, y):
 
     print("Select operation.")
     print("+. Addition.")
@@ -38,4 +38,4 @@ def add(x, y):
         print("Syntax Error")
 
 if __name__ == "__main__":
-    add(0, 0)
+    python_calculator(0, 0)
