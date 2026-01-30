@@ -10,29 +10,29 @@ def python_calculator(x, y):
    
     choice = input("\nEnter operation: ")
     # Take input for calculation
-    x = int(input(": "))
-    y = int(input(": "))
+    first_number = int(input(": "))
+    second_number = int(input(": "))
    
     # Addition
     if choice == "+":
-        result = x + y
-        print(f"\n{x} + {y} = {result}")
+        result = first_number + second_number
+        print(f"\n{first_number} + {second_number} = {result}")
 
     # Subtraction
     elif choice == "-":
-        result = x - y
-        print(f"\n{x} - {y} = {result}")
+        result = first_number - second_number
+        print(f"\n{first_number} - {second_number} = {result}")
 
     # Multiplication
     elif choice == "*":
-        result = x * y
-        print(f"\n{x} * {y} = {result}")
+        result = first_number * second_number   
+        print(f"\n{first_number} * {second_number} = {result}")
 
     # Division
     elif choice == "/":
-        result = x / y
-        print(f"\n{x} / {y} = {result}")
-
+        result = first_number / second_number
+        print(f"\n{first_number} / {second_number} = {result}")
+        
     # Syntax Error
     else:
         print("Syntax Error")
