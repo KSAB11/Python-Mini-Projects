@@ -1,4 +1,5 @@
 # Savings Goal Tracker 
+# Console/simulation program
 
 def Savings_Tracker():
 
