@@ -194,6 +194,7 @@ def main():
 
         else:
             print("Aircraft not found.")
+            print("Include variant!")
 
 if __name__ == "__main__":
     main()
